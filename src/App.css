@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Main.js css */
+.subApp{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.349);
+}
+.Lag{
+  font-size: 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(128, 128, 128, 0.355);
+  background-color: rgba(0, 0, 0, 0.041);
+  margin-bottom: 0.8em;
+  border-radius: 4em;
+  border: 0.1em solid rgba(221, 160, 221, 0.279);
+  width: 12em;
+}
+
+.carousel{
+  width: 50%;
+  height: 70%;
+  background-color: aqua;
+}
+
+.carousel-Inner{
+  height: 100%;
+  width: 100%;
+  display: flex;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+ /* Chevron Left */
+.carousel-Inner .left{
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+place-items: center;
+color: rgba(245, 222, 179, 0.443);
+cursor: pointer;
+}
+
+/* Chevron Right */
+.carousel-Inner .right{
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+place-items: center;
+color: rgba(245, 222, 179, 0.443);
+cursor: pointer;
+}
+
+
+
+
+.carousel-Inner .center{
+  flex: 90%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  color: rgba(245, 245, 245, 0.462);
+  font-size: 50px;
+
+}
+
+.h2{
+  background-color: rgb(104, 75, 2);
+  border-radius: 10px;
+}
+
+
+
+/* Section.js Css */
+.move{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid red;
+  background-color: black;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.move h2{
+  font-size: 20px;
+  color: rgb(226, 199, 143);
+}
+.move img{
+  width: 20%;
+}
+
+
+.btn2{
+  background-color: blue;
+  color: white;
+  width: 20rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0.8em;
+  margin-left: 35em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.delBtn{
+  width: 7em;
+  padding: 0.8em;
+  border-radius: 4em;
+  cursor: pointer;
+}
+
+@media(max-width: 668px){
+  .btn{
+    display: none;
+  }
+}
+
