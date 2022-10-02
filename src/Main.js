@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css'
 import { images } from './Data'
 import {FaChevronCircleLeft, FaChevronCircleRight} from 'react-icons/fa'
 
@@ -41,12 +40,6 @@ let handleRight = () => {
                 <FaChevronCircleRight onClick={handleRight} size={35}/>
             </div>
         </div>
-
-
-        
-
-
-
     </div>
   )
 }
